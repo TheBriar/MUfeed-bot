@@ -80,8 +80,20 @@ class MyClient(discord.Client):
             link_lst.clear()
             readlist()
             await message.channel.send('List updated!')
-    
 
-                    
+        if message.content.startswith('!help'):
+            commands = discord.Embed(
+                title = 'Commands for MUfeed'
+            )
+
+            commands.add_field(name = '!help', value = 'Show all commands', inline = False)
+            commands.add_field(name = '!check', value = 'Returns "checked" ', inline = False)
+            commands.add_field(name = '!list', value = 'Shows your read list', inline = False)
+            commands.add_field(name = '!updatelist', value = 'Updates your read list if you made changes while the bot is running', inline = False)
+            
+            await message.channel.send(embed=commands)
+        
+
+                
 client = MyClient()
 client.run('YOUR TOKEN')
