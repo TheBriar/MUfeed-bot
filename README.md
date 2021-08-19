@@ -9,3 +9,4 @@ commands:
 * !list: your read list
 * !updatelist: update your read list while bot is running
 * !check: returns 'checked'
+* !help: self-explanatory
