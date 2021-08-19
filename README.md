@@ -5,7 +5,7 @@ Probably wont work, wouldnt try.
 
 todo: lots of shit
 
-commands:
+commands:\n
 !list: your read list
 !updatelist: update your read list while bot is running
 !check: returns 'checked'
