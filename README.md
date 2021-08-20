@@ -3,7 +3,7 @@ Discord bot that posts updates from mangaupdates.com
 
 Probably wont work, wouldnt try.
 
-todo: lots of shit
+todo: idfk
 
 commands:
 * !list: your read list
